@@ -12,7 +12,7 @@ You can find the `.avro` files in the [Azure Blob Storage](https://portal.azure.
 ```
 usage: main.py [-h] [--iuv [IUV]] [--dominio [ID DOMINIO]] [--pretty] FILE
 
-Process some integers.
+Parse an .avro file
 
 positional arguments:
   FILE                  .avro file path to parse
