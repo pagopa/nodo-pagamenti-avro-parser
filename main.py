@@ -3,7 +3,7 @@ import os
 from pprint import pprint
 import argparse
 
-parser = argparse.ArgumentParser(description='Process some integers.', prog='main.py')
+parser = argparse.ArgumentParser(description='Parse an .avro file', prog='main.py')
 parser.add_argument('file', metavar='FILE', type=str, help='.avro file path to parse')
 parser.add_argument('--iuv', metavar='IUV', type=str, nargs='?', help='filter by iuv')
 parser.add_argument('--dominio', metavar='ID DOMINIO', type=str, nargs='?', help='filter by ID Dominio')
