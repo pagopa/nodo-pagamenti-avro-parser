@@ -3,6 +3,7 @@ This is a tool for parse the `.avro` files stored by the [Azure Event Hub](https
 
 # Prerequisites
 - python3
+- java
 
 # Usage
 
