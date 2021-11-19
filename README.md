@@ -7,6 +7,8 @@ This is a tool for parse the `.avro` files stored by the [Azure Event Hub](https
 
 # Usage
 
+You can find the `.avro` files in the [Azure Blob Storage](https://portal.azure.com/?l=en.en-us#blade/Microsoft_Azure_Storage/ContainerMenuBlade/overview/storageAccountId/%2Fsubscriptions%2F26abc801-0d8f-4a6e-ac5f-8e81bcc09112%2FresourceGroups%2Fpagopa-u-msg-rg%2Fproviders%2FMicrosoft.Storage%2FstorageAccounts%2Fnododeipagamentiresauat/path/eventireblob/etag/%220x8D9AB4090CC765A%22/defaultEncryptionScope/%24account-encryption-key/denyEncryptionScopeOverride//defaultId//publicAccessVal/None)
+
 ```
 usage: main.py [-h] [--iuv [IUV]] [--dominio [ID DOMINIO]] [--pretty] FILE
 
